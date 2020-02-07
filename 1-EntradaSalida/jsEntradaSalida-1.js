@@ -8,7 +8,7 @@ comentario
 
 
 // asigno la variable texto
-alert ("esto funciona de maravilla");
+alert("esto funciona de maravilla");
 
 
 
