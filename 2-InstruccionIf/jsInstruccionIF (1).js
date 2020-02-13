@@ -2,6 +2,21 @@ function mostrar()
 {
 //tomo la edad  
 
+//variables
+
+var edad;
 
 
-}//FIN DE LA FUNCIÓN
+//ID
+
+edad = document.getElementById("edad").value;
+
+if (edad==15){
+    alert ("niña bonita");   
+}
+
+
+
+
+}
+//FIN DE LA FUNCIÓN
