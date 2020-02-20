@@ -6,12 +6,18 @@ function mostrar()
 	var max;
 	var min;
 
+
 	max=11;
 	min=1;
 
-	numerorandom = Math.floor(Math.random)* (max - min)+ min
+	numerorandom=(Math.floor(Math.random)* (max - min)+ min);
 	
 	console.log (numerorandom);
+
+//ver como hacer para que aparezca en la pantalla.
+
+	alert("numerorandom");
+
 
 
 }//FIN DE LA FUNCIÓN
