@@ -7,12 +7,12 @@ function mostrar()
 
 	//	contador++;
 	//	numero= alert (contador);
-	do {
+	do {console.log(contador);
+		contador++;
+		numero= alert (contador);
 
 	}while (contador <10);
-	console.log(contador);
-	contador++;
-	numero= alert (contador);
+	
 //revisar 
 }
 	
