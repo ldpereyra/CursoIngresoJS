@@ -11,3 +11,23 @@ function ComenzarIngreso ()
 {
  	
 }
+function NumerosPares()
+{
+
+}
+function NumerosImpares()
+{
+
+}
+function NumerosDivisibles()
+{
+
+}
+function VerificarPrimo() 
+{
+
+}
+function NumerosPrimos()
+{
+
+}

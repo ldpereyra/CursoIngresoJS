@@ -8,14 +8,29 @@ var ColorSecreto;
 var tiempoInicio;
 function comenzar()
 {
+    tiempoInicio= new date ()
+    var colorelegido;
+    var random;
+    var min=1;
+    var max=7;
 
-	
+    random=Math.floor(math.random()+ (max-min))+ min;
+    document.getElementById("colorElegido").value;
+switch (random) 
+{
+    case 1:
+    ColorSecreto="azul";
+    break;
+    case 2:
+    ColorSecreto="amarillo";
+    break;
+}
+	alert ()
 
 }//FIN DE LA FUNCIÓN
 function Responder(colorParametro)
 {
 	
 	
-
-
+    function comenzar()
 }//FIN DE LA FUNCIÓN

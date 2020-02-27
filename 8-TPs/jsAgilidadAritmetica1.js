@@ -9,12 +9,35 @@ se debe informar si el resultado es el correcto o no.
 var respuesta;
 function comenzar()
 {
+    var numeroUno;
+    var numeroDos;
+    var operador;
+    var operadorRandom;
+    numeroDos =Math.floor(math.random()*11-1)+1;
+    numeroDos =Math.floor(math.random()*11-1)+1;
+
+    operadorRandom= Math.floor(Math.random()*(5-1))+1;
+
+    switch (operadorRandom)
+    {
+        case 1:
+        operardor= "+";
+        break;
+    }
 
 	
 
 }//FIN DE LA FUNCIÓN
 function Responder()
 {
-	
+    var resultadofinal;
+    
+    respuesta? document.getElementById("Respuesta").value;
+    respuesta=parseInt(respuesta);
 
+    switch (operadorRandom)
+    set
+    {
+        case 1:
+    }
 }//FIN DE LA FUNCIÓN
