@@ -13,11 +13,18 @@ function mostrar()
     var respusta;
     var numero;
     var letra;
-    var pares;
-    var impares;
-    var cantidadceros;
-    var acumularpositivos;
-    var acumularnegativos;
+    var pares=0;
+    var impares=0;
+    var cantidadceros=0;
+    var acumularpositivos=0;
+    var acumularnegativos=0;
+    var numerospositivo=0;
+    var maximo;
+    var minimo;
+    var primeravez=true;
+    var maximoletra;
+    var minimoletra;
+   
 
     do {
         numero= prompt("");
@@ -31,19 +38,39 @@ function mostrar()
         respuesta=confirm("deseacontinuar?"); 
     }while(respuesta);
 
-    //a 
+    //a para calcular numeros pares
     if (numero % 2 ==0){
         pares++;
     //b
+    }else if(numero==0){
+        pares++;
+
     }else {
         impares++;
-    //c
-    }if (numero==0){
-        ceros++
+    }
+        
     //d    
-    }if (numerospositivos >0){
-        acumularpositivos=numero;
+    if (numerospositivos >0){       
+        numerospositivos++;
+        acumularpositivos+=numerospositivos
     //e   
-    }if (numerosnegativos){
-        acumularnegativos=numero;
-    }if 
+    }else if (numerosnegativos<0){
+        acumularnegativos+= numero;
+    } if (primeravez){
+        primeravez=false;
+        minimo=numero
+        maximo=numero
+       
+    }  else {
+        if (maximo>numero){
+            maximo=numero
+            maximoletra=letra
+
+        }if (numero<minimo){
+            minimo=numero;
+            minimo=letra
+        }
+    }
+        if(contadorpositivos !=0){
+            promedio= acumularpositivos/contadordepositivos;
+        }

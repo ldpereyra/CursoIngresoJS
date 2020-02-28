@@ -5,7 +5,7 @@ function mostrar()
 var contador=0;
 var positivo=0;
 var negativo=1;
-var respuesta=true;
+var respuesta=0;
 //validar numero siempre!
 
 while (respuesta){
